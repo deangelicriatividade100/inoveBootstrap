@@ -1,0 +1,220 @@
+.wrap {
+  background-color: #efefed;
+  margin: auto;
+  
+}
+
+.navbar {
+  box-shadow: 0px 0px 25px gray;
+  background-color: #000;
+}
+
+.page-name {
+  margin: auto;
+  font-size: 12pt;
+  font-weight: bolder;
+  color: #0359af;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.glyoption-icon {
+  border: none;
+  background: transparent;
+  color: #9f9fa0;
+}
+
+.img-lista {
+  width: 30px;
+  height: 30px;
+}
+
+
+.wrap-title {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.wrap-title h1 {
+  font-weight: bolder;
+  color: #000;
+  font-size: 12pt;
+  margin-left: 10px;
+}
+
+.wrap-title img {
+  margin-top: 5px;
+}
+
+.card {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+  margin: auto;
+}
+
+.card p {
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.wrap-check {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.wrap-check input[type=radio] {
+  height: 20px;
+  width: 20px;
+}
+
+.wrap-check label {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding-left: 0;
+  font-size: 11pt;
+  font-weight: 500;
+  color: #888;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form-group select {
+  border-radius: 13px;
+  width: 70px;
+  height: 30px;
+}
+
+.form-group select:focus {
+  outline: none;
+  border: 1px solid #ff5219;
+}
+
+.form-group label {
+  margin-right: 10px;
+  padding-top: 5px;
+  font-weight: normal;
+  color: #8e8e8e;
+}
+
+.form-group input {
+  border-radius: 15px;
+}
+
+.form-group input:focus {
+  border: 1px solid #ff5219;
+  box-shadow: none;
+}
+
+
+
+.wrap-table {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+  overflow-x: auto;
+}
+
+.title-table th {
+  text-align: center;
+  color: #8e8e8e;
+  border-bottom: 1px solid #ddd !important;
+}
+
+tr  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+td:nth-child(1),
+th:nth-child(1)  {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 50%;
+}
+
+td:nth-child(2),
+th:nth-child(2)  {
+  width: calc( 50% - 80px);
+  min-width: 80px;
+}
+
+td:nth-child(3),
+th:nth-child(3)  {
+  width: 80px;
+}
+.imgs {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+}
+
+input[type=search] {
+    text-align: center;
+}
+
+input[type=search]:not(:focus)  {
+    background-image: url('./../img/search.png');
+    padding: 0 15px;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 40px) 50%;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    box-shadow: 0px 0px 25px gray;
+    background-color: #000;
+    height: 60px;
+  }
+
+  .wrap-check {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .wrap-check {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+ .wrap-check input[type=radio] {
+  height: 14px;
+  width: 14px;
+}
+
+  .wrap-check label {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+}
+
+@media (max-width: 720px) { 
+    
+  .wrap-check {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .card {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}

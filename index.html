@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <title></title>
+</head>
+<body class="wrap">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 class="page-name">PERÍODO LETIVO 2018/1</h1>
+    <button class="glyoption-icon">
+      <span class="glyphicon glyphicon-option-vertical"></span>
+    </button>
+  </nav>
+  <div>
+    <section class="row justify-content-center">
+      <div class="card col-md-8"> 
+        <div class="wrap-title">
+          <img class="img-lista" src="img/lista.png"><h1>LISTA DE ALUNOS</h1>
+        </div>
+        <p>Pesquisado por:</p>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Luiz Melo">
+        </div>
+        
+        <div class="wrap-check">
+          <label class="radio-inline">Matrícula</label>
+          <input type="radio" checked="checked" name="optradio">            
+          
+          <label class="radio-inline">Turma</label>
+          <input type="radio" name="optradio">
+          
+          <label class="radio-inline">Responsável</label>
+          <input type="radio" name="optradio">
+        </div>
+
+        <div class="form-group">
+          <label for="exindindo">Exibindo</label>
+          <select>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="search" placeholder="Search" class="form-control" id="exindindo">
+        </div>
+        <div>
+        <div class="wrap-table">  
+          <table  class=" table">
+            <thead>
+              <tr class="title-table">
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active">
+                <td class="names">Luiz Melo Criativo</td>
+                <td>0123456</td>
+                <td><img class="imgs" src="img/ok.png"><span class="glyphicon glyphicon-option-horizontal"></span></td>
+              </tr> 
+              <tr>
+                <td class="names">Luiz Fábio</td>
+                <td>0123456</td>
+                <td><img class="imgs" src="img/vazio.png"><span class="glyphicon glyphicon-option-horizontal"></span></td>
+              </tr>
+              <tr>
+                <td class="names">Luiz Henrique</td>
+                <td>0123456</td>
+                <td><img class="imgs" src="img/sincronizar.png"><span class="glyphicon glyphicon-option-horizontal"></span></td>
+              </tr>          
+            </tbody>
+          </table>
+        </div>
+      </div> 
+    </section>  
+</body>
+</html>
+
+
+
